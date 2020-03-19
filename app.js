@@ -155,7 +155,6 @@ class OutroView {
 
     // Attach Event handlers in Outro
     attachEventHandlers() {
-        const self = this;
 
         this.resetButton.onclick = function() {
             quizApp.startQuiz();
